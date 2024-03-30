@@ -1,0 +1,63 @@
+.sellproductcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin: 20px 0; */
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.sellbtn{
+    position: fixed;
+    right: 10px;
+    top: 100px;
+    z-index: 5;
+    background-color: rgb(15, 142, 142);
+    padding: 10px 20px;
+    /* box-shadow: 3px, 4px, 5px 5px rgb(117, 141, 143); */
+    box-shadow: 3px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.dressCard{
+    width: 18rem;
+}
+.sellbtn a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.singleimg{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 90px;
+}
+.desc, .contactseller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+@media(max-width: 768px){
+    
+    .dresCarContainer{
+        width: 100%;
+    }
+}
+@media(max-width: 576px){
+    /* .dressCardimg{
+        height: 10px;
+    }
+     */
+    .dressCard{
+        width: 6rem;
+        height: auto;
+        /* background-color: red; */
+    }
+}

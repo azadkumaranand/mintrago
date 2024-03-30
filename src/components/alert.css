@@ -1,0 +1,19 @@
+.alertContainer{
+    position: fixed;
+    top: 75px;
+    right: 0;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.alertcontent{
+    padding: 5px;
+    color: black;
+}
+.closealert{
+    font-size: 25px;
+}

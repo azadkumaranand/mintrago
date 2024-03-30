@@ -1,0 +1,21 @@
+.adminbar{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+.adminbar ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.adminbar ul li{
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid rgb(245, 18, 56);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}

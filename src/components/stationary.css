@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;900&family=Radio+Canada:wght@400;500&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500&family=Ubuntu:wght@300;400&display=swap');
+
+.stationarycontent{
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.stationaryservices{
+    position: relative;
+    top: 85px;
+    height: 110%;
+}
+.card img{
+    height: 300px;
+}
+
+.mintragoBtn{
+    background-color: rgb(51, 166, 166);
+    border: none;
+    outline: none;
+}
+.mintragoBtn:hover{
+    background-color: rgb(49, 129, 129);
+}
+
+.readioinputs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.readioinputs p span{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media(max-width: 500px){
+    .card img{
+        height: 200px;
+    }
+}

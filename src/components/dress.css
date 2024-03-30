@@ -1,0 +1,27 @@
+.dresscontent{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.reloder{
+    position: fixed;
+    z-index: 9999;
+    top: 50%;
+    left: 48%;
+}
+
+.modalField{
+    margin: 15px 0;
+    width: 100%;
+}
+.modalField select{
+    width: 100%;
+    padding: 6px;
+    border-radius: 8px;
+}
